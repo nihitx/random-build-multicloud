@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import {failover} from './failover';
-import {getdata} from './getdata';
+import failover from './failover';
+import getdata from './getdata';
 import DataBlog from './table';
 
 function App() {

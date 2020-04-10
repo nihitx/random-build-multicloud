@@ -4,6 +4,4 @@ const getdata = async (url) => {
     return resultBody;
 }
 
-module.exports = {
-    getdata
-}
+export default getdata;

@@ -13,6 +13,4 @@ const failover = async () =>{
     }
   }
 
-module.exports = {
-    failover
-}
+export default failover;
