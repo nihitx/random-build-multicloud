@@ -1,7 +1,7 @@
 const failover = async () =>{
     let URL = {
-      aws : 'http://localhost:3000',
-      azure : 'http://localhost:7071'
+      aws : 'https://6lez2g41n0.execute-api.us-east-1.amazonaws.com',
+      azure : 'sls-neur-dev-multiclouddeploymentblog.azurewebsites.net'
     }
     try{
       const data = await fetch(`${URL.aws}/dev/status`);
